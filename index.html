@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+    <title>shop project</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="row">
+              <div class="col-3">
+                  <img src="images/logo.png" alt="">
+                 
+              </div>
+                    <div class="col-6">
+                        <ul class="menu">
+                            <li><a href="">Home </a></li>
+                            <li class="str"><a  href="">Products </a>
+                            <ul class="submenu">
+                                <li><a href="">Lorem ipsum dolor</a></li>
+                                <li><a href="">Sit amet</a></li>
+                                <li><a href="">Consectetur adipisicing</a></li>
+                                <li><a href="">Tempor incididunt</a></li>
+                                <li><a href="">Dolore magna aliqua</a></li>
+                                <li><a href="">Ut enim ad minim veniam</a></li>
+                                <li><a href="">Quis nostrud</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="">Payment </a></li>
+                            <li><a href="">Shipping </a></li>
+                        </ul>
+                    </div>
+                <div class="col-3">
+                    <div class="search-img">
+                        
+                            <div class="search-position">
+                                <input class="search" type="text" placeholder="search">
+                                    <button class="submit" type="submit" >
+                                        <img src="images/subject.png"  width="" height="" alt="">
+                                    </button>
+                            </div>
+                            <div class="search-icon">
+                                <button class="icon" type="submit">
+                                    <img class="photos" src="images/buy.png" alt="">
+                                   
+                                </button>
+                                   <div id="product-count" class="readout">0</div> 
+                            </div>
+                               
+                          
+                    </div>
+
+                       
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="slider">
+        <h1>
+
+        </h1>
+    </div>
+    <main class="main">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-3 filter-type">
+
+
+                                <h1 class="type-logo mgb-20 pdt-30">
+                                    device type
+                                </h1>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox" >
+                                        <label for="textbox" > Laptop </label>
+                                    </div>
+
+                                    <div class="check-text mgb-60">
+                                        <input type="checkbox" id="textbox-tablet" >
+                                        <label for="textbox-tablet"> Tablet </label>
+                                    </div>
+
+
+                        
+
+                                <h1 class="type-logo mgb-20">
+                                        Color
+                                </h1>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox-black" >
+                                        <label for="textbox-black" > Black </label>
+                                    </div>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox-red" >
+                                        <label for="textbox-red"> Red </label>
+                                    </div>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox-green" >
+                                        <label for="textbox-green"> Green </label>
+                                    </div>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox-blue" >
+                                        <label for="textbox-blue"> Blue </label>
+                                    </div>
+
+                                    <div class="check-text mgb-60">
+                                        <input type="checkbox" id="textbox-orange" >
+                                        <label for="textbox-orange"> Orange </label>
+                                    </div>
+
+
+                                    <h1 class="type-logo mgb-20">
+                                        RAM
+                                    </h1>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox-1gb" >
+                                        <label for="textbox-1gb" > 1GB </label>
+                                    </div>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox-2gb" >
+                                        <label for="textbox-2gb"> 2GB </label>
+                                    </div>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox-4gb" >
+                                        <label for="textbox-4gb"> 4GB </label>
+                                    </div>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox-6gb" >
+                                        <label for="textbox-6gb"> 6GB </label>
+                                    </div>
+
+                                    <div class="check-text mgb-20">
+                                        <input type="checkbox" id="textbox-8gb" >
+                                        <label for="textbox-8gb"> 8GB </label>
+                                    </div>
+
+                                    <div class="Show-options mgb-20">
+                                        Show more options ...
+                                    </div>
+
+                                   <div class="filter-submit">
+
+                                   
+                                        <button class="filter-submit-botton">
+                                            submit
+                                        </button>
+                                    </div>
+
+                </div>
+
+                        <div class="col-9">
+                            <div class="force">
+                                <p>Home page  >  Products  >  Laptops and Tablets</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-8">
+                                    Laptops and Tablets
+                                </div>
+
+                                    
+                                        <ul class="menu-sort">
+                                
+                                                <li><a href="">sort by price <span><img  class="img"src="images/down_arrow_icon.png" alt=""></span></a>
+                                                    <ul class="submenu-sort">
+                                                        <li><a href="">sort by name</a></li>
+                                                        <li><a href="">sort by date</a></li>
+                                                        <li><a href=""> sort by popularity</a></li>
+                                                        
+                                                    </ul>
+                                                </li>
+                                        
+                                        
+                                        </ul> 
+                                
+                                
+                            </div>
+
+                            <div class="row ">
+                                <div class="col-4">
+                         
+                                        <div class="product-image">
+                                            <img src="images/monytor.png" alt="">
+                                            <div class="zoom"></div>
+                                            <div class="like"></div>
+
+                                        </div>
+                                        <div class="product-body">
+                                                <div class="product-title">
+                                                    <h1>#1 Device Name</h1>
+                                                </div>
+                                                <div class="product-description"> 
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                </div>
+                                                <div class="product-features mg-bt"> 
+                                                    <h1>type:
+                                                        <span class="span-text">Laptop
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features mg-bt">
+                                                    <h1>Screen size:
+                                                        <span class="span-text">7 inches
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features bt">  
+                                                    <h1>RAM:
+                                                        <span class="span-text">1 GB
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-price bt">
+                                                    <h1>$599 
+                                                        <span class="span-price">25</span>
+                                                    </h1>
+                                                </div>
+                                                    <button class="more-details btn">
+                                                        more details
+                                                    </button>
+
+                                                    <button class="Add-to-cart btn">
+                                                        Add to cart 
+                                                        <span class="add-img"><img src="images/buy2.png" alt=""></span>
+                                                        
+
+                                                    </button>
+                                        </div>
+                             
+                                </div>
+
+
+
+                                <div class="col-4 mg-rt">
+                     
+                                        <div class="product-image">
+                                            <img src="images/tuner.png" alt="">
+                                            <div class="zoom"></div>
+                                            <div class="like"></div>
+
+                                        </div>
+                                        <div class="product-body">
+                                                <div class="product-title">
+                                                    <h1>#2 Device Name</h1>
+                                                </div>
+                                                <div class="product-description"> 
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                </div>
+                                                <div class="product-features mg-bt"> 
+                                                    <h1>type:
+                                                        <span class="span-text">Laptop
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features mg-bt">
+                                                    <h1>Screen size:
+                                                        <span class="span-text">7 inches
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features bt">  
+                                                    <h1>RAM:
+                                                        <span class="span-text">1 GB
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-price bt">
+                                                    <h1>$1250 
+                                                        <span class="span-price">99</span>
+                                                    </h1>
+                                                </div>
+                                                    <button class="more-details btn">
+                                                        <h1>more details</h1>
+                                                    </button>
+
+                                                    <button class="Add-to-cart btn">
+                                                        <h1 >Add to cart 
+                                                        <span class="add-img"><img src="images/buy2.png" alt=""></span>
+                                                        </h1>
+
+                                                    </button>
+                                        </div>
+                  
+                                </div>
+
+                                <div class="col-4">
+                                
+                                        <div class="product-image">
+                                            <img src="images/chasu.png" alt="">
+                                            <div class="zoom"></div>
+                                            <div class="like"></div>
+
+                                        </div>
+                                        <div class="product-body">
+                                                <div class="product-title">
+                                                    <h1>#3 Device Name</h1>
+                                                </div>
+                                                <div class="product-description"> 
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                </div>
+                                                <div class="product-features mg-bt"> 
+                                                    <h1>type:
+                                                        <span class="span-text">Laptop
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features mg-bt">
+                                                    <h1>Screen size:
+                                                        <span class="span-text">7 inches
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features bt">  
+                                                    <h1>RAM:
+                                                        <span class="span-text">1 GB
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-price bt">
+                                                    <h1>$399 
+                                                        <span class="span-price">50</span>
+                                                    </h1>
+                                                </div>
+                                                    <button class="more-details btn">
+                                                        <h1>more details</h1>
+                                                    </button>
+
+                                                    <button class="Add-to-cart btn">
+                                                        <h1 >Add to cart 
+                                                        <span class="add-img"><img src="images/buy2.png" alt=""></span>
+                                                        </h1>
+
+                                                    </button>
+                                        </div>
+                           
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-4">
+                          
+                                        <div class="product-image">
+                                            <img src="images/noutboock.png" alt="">
+                                            <div class="zoom"></div>
+                                            <div class="like"></div>
+
+                                        </div>
+                                        <div class="product-body">
+                                                <div class="product-title">
+                                                    <h1>#1 Device Name</h1>
+                                                </div>
+                                                <div class="product-description"> 
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                </div>
+                                                <div class="product-features mg-bt"> 
+                                                    <h1>type:
+                                                        <span class="span-text">Laptop
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features mg-bt">
+                                                    <h1>Screen size:
+                                                        <span class="span-text">7 inches
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features bt">  
+                                                    <h1>RAM:
+                                                        <span class="span-text">1 GB
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-price bt">
+                                                    <h1>$599 
+                                                        <span class="span-price">25</span>
+                                                    </h1>
+                                                </div>
+                                                    <button class="more-details btn">
+                                                        <h1>more details</h1>
+                                                    </button>
+
+                                                    <button class="Add-to-cart btn">
+                                                        <h1 >Add to cart 
+                                                        <span class="add-img"><img src="images/buy2.png" alt=""></span>
+                                                        </h1>
+
+                                                    </button>
+                                        </div>
+                
+                                </div>
+
+
+
+                                <div class="col-4 mg-rt">
+                      
+                                        <div class="product-image">
+                                            <img src="images/player.png" alt="">
+                                            <div class="zoom"></div>
+                                            <div class="like"></div>
+
+                                        </div>
+                                        <div class="product-body">
+                                                <div class="product-title">
+                                                    <h1>#2 Device Name</h1>
+                                                </div>
+                                                <div class="product-description"> 
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                </div>
+                                                <div class="product-features mg-bt"> 
+                                                    <h1>type:
+                                                        <span class="span-text">Laptop
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features mg-bt">
+                                                    <h1>Screen size:
+                                                        <span class="span-text">7 inches
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features bt">  
+                                                    <h1>RAM:
+                                                        <span class="span-text">1 GB
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-price bt">
+                                                    <h1>$1250 
+                                                        <span class="span-price">99</span>
+                                                    </h1>
+                                                </div>
+                                                    <button class="more-details btn">
+                                                        <h1>more details</h1>
+                                                    </button>
+
+                                                    <button class="Add-to-cart btn">
+                                                        <h1 >Add to cart 
+                                                        <span class="add-img"><img src="images/buy2.png" alt=""></span>
+                                                        </h1>
+
+                                                    </button>
+                                        </div>
+                  
+                                </div>
+
+                                <div class="col-4">
+                      
+                                        <div class="product-image">
+                                            <img src="images/phone.png" alt="">
+                                            <div class="zoom"></div>
+                                            <div class="like"></div>
+
+                                        </div>
+                                        <div class="product-body">
+                                                <div class="product-title">
+                                                    <h1>#1 Device Name</h1>
+                                                </div>
+                                                <div class="product-description"> 
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                </div>
+                                                <div class="product-features mg-bt"> 
+                                                    <h1>type:
+                                                        <span class="span-text">Laptop
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features mg-bt">
+                                                    <h1>Screen size:
+                                                        <span class="span-text">7 inches
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features bt">  
+                                                    <h1>RAM:
+                                                        <span class="span-text">1 GB
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-price bt">
+                                                    <h1>$399 
+                                                        <span class="span-price">50</span>
+                                                    </h1>
+                                                </div>
+                                                    <button class="more-details btn">
+                                                        <h1>more details</h1>
+                                                    </button>
+
+                                                    <button class="Add-to-cart btn">
+                                                        <h1 >Add to cart 
+                                                        <span class="add-img"><img src="images/buy2.png" alt=""></span>
+                                                        </h1>
+
+                                                    </button>
+                                        </div>
+                                    </div>
+                       
+
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="col-4">
+                         
+                                        <div class="product-image">
+                                            <img src="images/planshet.png" alt="">
+                                            <div class="zoom"></div>
+                                            <div class="like"></div>
+
+                                        </div>
+                                        <div class="product-body">
+                                                <div class="product-title">
+                                                    <h1>#1 Device Name</h1>
+                                                </div>
+                                                <div class="product-description"> 
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                </div>
+                                                <div class="product-features mg-bt"> 
+                                                    <h1>type:
+                                                        <span class="span-text">Laptop
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features mg-bt">
+                                                    <h1>Screen size:
+                                                        <span class="span-text">7 inches
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features bt">  
+                                                    <h1>RAM:
+                                                        <span class="span-text">1 GB
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-price bt">
+                                                    <h1>$599 
+                                                        <span class="span-price">25</span>
+                                                    </h1>
+                                                </div>
+                                                    <button class="more-details btn">
+                                                        <h1>more details</h1>
+                                                    </button>
+
+                                                    <button class="Add-to-cart btn">
+                                                        <h1 >Add to cart 
+                                                        <span class="add-img"><img src="images/buy2.png" alt=""></span>
+                                                        </h1>
+
+                                                    </button>
+                                        </div>
+                                    </div>
+                       
+
+
+
+                                <div class="col-4 mg-rt">
+                                    
+                                        <div class="product-image">
+                                            <img src="images/tuner.png" alt="">
+                                            <div class="zoom"></div>
+                                            <div class="like"></div>
+
+                                        </div>
+                                        <div class="product-body">
+                                                <div class="product-title">
+                                                    <h1>#2 Device Name</h1>
+                                                </div>
+                                                <div class="product-description"> 
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                </div>
+                                                <div class="product-features mg-bt"> 
+                                                    <h1>type:
+                                                        <span class="span-text">Laptop
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features mg-bt">
+                                                    <h1>Screen size:
+                                                        <span class="span-text">7 inches
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features bt">  
+                                                    <h1>RAM:
+                                                        <span class="span-text">1 GB
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-price bt">
+                                                    <h1>$1250 
+                                                        <span class="span-price">99</span>
+                                                    </h1>
+                                                </div>
+                                                    <button class="more-details btn">
+                                                        <h1>more details</h1>
+                                                    </button>
+
+                                                    <button class="Add-to-cart btn">
+                                                        <h1 >Add to cart 
+                                                        <span class="add-img"><img src="images/buy2.png" alt=""></span>
+                                                        </h1>
+
+                                                    </button>
+                                        </div>
+                                  
+
+                                      
+                                </div>
+                                
+                                <div class="col-4">
+                              
+                                        <div class="product-image">
+                                            <img src="images/chasu.png" alt="">
+                                            <div class="zoom"></div>
+                                            <div class="like"></div>
+
+                                        </div>
+                                        <div class="product-body">
+                                                <div class="product-title">
+                                                    <h1>#3 Device Name</h1>
+                                                </div>
+                                                <div class="product-description"> 
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                </div>
+                                                <div class="product-features mg-bt"> 
+                                                    <h1>type:
+                                                        <span class="span-text">Laptop
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features mg-bt">
+                                                    <h1>Screen size:
+                                                        <span class="span-text">7 inches
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-features bt">  
+                                                    <h1>RAM:
+                                                        <span class="span-text">1 GB
+                                                        </span>
+                                                    </h1>
+                                                </div>
+                                                <div class="product-price bt">
+                                                    <h1>$399 
+                                                        <span class="span-price">50</span>
+                                                    </h1>
+                                                </div>
+                                                    <button class="more-details btn">
+                                                        <h1>more details</h1>
+                                                    </button>
+
+                                                    <button class="Add-to-cart btn">
+                                                        <h1 >Add to cart 
+                                                        <span class="add-img"><img src="images/buy2.png" alt=""></span>
+                                                        </h1>
+
+                                                    </button>
+                                                    
+                                        </div>
+                                       
+                                </div>
+
+                            </div>
+                            <div class="loading"> Load more ...</div>
+                        
+                        </div>
+                </div>
+          </div>
+
+
+    </main>
+    <footer class="footer">
+        <h1>© Copyright 2017</h1>
+    </footer>
+    <div class="modal">
+        <div class="modal-block">
+            <form action="">
+                <div class="btn-close">x</div>
+                <h3>Please call for more details</h3>
+                <div class="form-fields">
+                    <input type="text" placeholder="Your name">
+                </div>
+                <div class="form-fields">
+                    <input type="text" placeholder="Your phone">
+                </div>
+                <button >Please call</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
