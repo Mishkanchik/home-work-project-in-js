@@ -465,6 +465,11 @@ body{
     background-image: url(images/love1.png);
 }
 
+.like-show{
+    background-image: url(images/love2.png);
+    background-color: #2c71b8;
+}
+
 /* .likes:hover{
 
     content: "";
